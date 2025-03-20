@@ -1,0 +1,39 @@
+# 📌 Node.js 패키지 폴더 (필수!)
+node_modules/
+.pnp/
+.pnp.js
+
+# 📌 Next.js 빌드 폴더 (배포 전 생성됨)
+.next/
+out/
+build/
+
+# 📌 환경 변수 파일 (보안 위험 방지)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 📌 로그 파일 (오류 로그)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 📌 캐시 파일 및 시스템 파일
+.DS_Store  # macOS에서 생성됨
+Thumbs.db  # Windows에서 생성됨
+
+# 📌 TypeScript 빌드 관련
+*.tsbuildinfo
+next-env.d.ts
+
+# 📌 Test coverage (Jest, Cypress 등)
+coverage/
+
+# 📌 Vercel & Netlify 배포 폴더 (자동 생성됨)
+.vercel/
+.netlify/
+
+# 📌 기타
+yarn.lock
